@@ -1,0 +1,133 @@
+.container {
+	width: 100%;
+	height: 100%;
+	background: #80c6e2;
+	overflow: hidden;
+	display: flex;
+	padding-left: 50px;
+	background: url(~@/assets/images/bg.jpg) no-repeat center;
+	background-size: 100%;
+	justify-content: center;
+	align-items: center;
+	.loginContainers{
+		// margin-left:auto;
+		display: flex;
+		width: 740px;
+		height:370px;
+		box-shadow: 0px 0px 1px rgb(151, 151, 151),0px 0px 1px rgb(151, 151, 151);
+		.left{
+			flex:1;
+			background-color: rgb(77, 77, 77);
+			background: url(~@/assets/images/left.jpg) no-repeat center;
+			background-size: 100%;
+		}
+		.right {
+			flex:1;
+			display: inline-block;
+			background-color: #ffffff;
+			.loginTitle{
+				font-size: 20px;
+				font-weight: 550;
+				text-align: center;
+				margin-top: 10px;
+			}
+			.loginTab {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 50px;
+				padding: 0 28px;
+				color:#c2c1c1;
+				margin-top: 15px;
+			}
+	
+			.formTitle {
+				flex: 1;
+				text-align: center;
+				font-size: 16px;
+	
+				text-align: center;
+				cursor: pointer;
+	
+				&.active {
+					color: #0066FF;
+					span {
+						border-bottom: 4px solid rgba(0, 102, 255, 1);
+					}
+				}
+	
+				span {
+					padding: 0 12px;
+					padding-bottom: 4px;
+				}
+			}
+		}
+	}
+
+}
+
+
+.pwdForm {
+	padding: 0 40px;
+	margin-top: 40px;
+
+	.pwdFormItem{
+		margin-bottom: 10px !important;
+	}
+
+	.findPwd {
+		height: 40px;
+		text-align: right;
+		font-size: 16px;
+		color: #999999;
+	}
+
+	button {
+
+		width: 100%;
+		height: 44px;
+	}
+	Button{
+		margin-top: 15px;
+	}
+
+}
+
+.mobileForm {
+	padding: 0 40px;
+	margin-top: 40px;
+	.codeDiv {
+		display: flex;
+		margin-bottom: 25px;
+		.codeFormItem{
+			margin-bottom: 0 !important;
+			display: inline-flex;
+			div{
+				display: inline-flex;
+			}
+		}
+
+		.right {
+			width: 100px;
+			text-align: center ;
+			color: #999999;
+			cursor: pointer;
+		}
+	}
+
+
+
+	.findPwd {
+		height: 40px;
+		text-align: right;
+		font-size: 16px;
+		color: #999999;
+	}
+
+	button {
+		color: #ffffff;
+		width: 100%;
+		height: 44px;
+	}
+}
+

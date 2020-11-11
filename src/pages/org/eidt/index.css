@@ -1,0 +1,27 @@
+.modal {
+  width: 500px;
+}
+.modal .inputitems {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+.modal .inputitems Input {
+  flex: 1;
+}
+.modal .star {
+  color: #ff0505;
+}
+.modal .name {
+  font-weight: bold;
+}
+.modal .sort {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+.modal .delet {
+  margin-left: 20px;
+}

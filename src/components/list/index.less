@@ -1,0 +1,39 @@
+.table {
+	border: 1px solid #888;
+
+	.tableRow {
+		display: flex;
+		border-bottom: 1px solid #888;
+
+		&:last-child {
+			border-bottom: 0;
+		}
+
+		div {
+			flex: 1;
+			min-height: 60px;
+			color: #333333;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			word-break: break-all;
+			padding: 4px;
+			border-right: 1px solid #888;
+
+			&:last-child {
+				border-right: 0;
+			}
+
+			&:nth-child(2n+1) {
+				background: #c1d5fd;
+			}
+		}
+	}
+}
+
+.btnList {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+}

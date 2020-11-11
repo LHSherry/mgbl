@@ -1,0 +1,17 @@
+.Form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Form .fromitems {
+  width: 300px;
+}
+.Form .areas {
+  display: flex;
+  flex-direction: row;
+  width: 900px;
+}
+.Form .areas .aresitems {
+  margin-left: 10px;
+}

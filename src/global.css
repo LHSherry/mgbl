@@ -1,0 +1,196 @@
+html,
+body,
+#root {
+  font-family: 'PingFang SC', "微软雅黑";
+  width: 100%;
+  height: 100%;
+}
+html,
+body,
+div,
+span,
+button,
+p,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0 none;
+  margin: 0;
+  padding: 0;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  box-shadow: 0 0 0 1000px #fff inset;
+}
+input[type='text']:focus,
+input[type='password']:focus,
+textarea:focus {
+  box-shadow: 0 0 0 1000px #fff inset;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+}
+:global(.ant-form-item) {
+  margin-bottom: 12px !important;
+}
+/* 扩展ant design pro按钮组件颜色 */
+.buttonColorDust {
+  background-color: #F5222D;
+  border-color: #F5222D;
+}
+.buttonColorDust:hover,
+.buttonColorDust:focus {
+  background-color: #ff4d4f;
+  border-color: #ff4d4f;
+}
+.buttonColorDust:active,
+.buttonColorDust.active {
+  background-color: #cf1322;
+  border-color: #cf1322;
+}
+.buttonColorVolcano {
+  background-color: #FA541C;
+  border-color: #FA541C;
+}
+.buttonColorVolcano:hover,
+.buttonColorVolcano:focus {
+  background-color: #ff7a45;
+  border-color: #ff7a45;
+}
+.buttonColorVolcano:active,
+.buttonColorVolcano.active {
+  background-color: #d4380d;
+  border-color: #d4380d;
+}
+.buttonColorSunset {
+  background-color: #FAAD14;
+  border-color: #FAAD14;
+}
+.buttonColorSunset:hover,
+.buttonColorSunset:focus {
+  background-color: #ffc53d;
+  border-color: #ffc53d;
+}
+.buttonColorSunset:active,
+.buttonColorSunset.active {
+  background-color: #d48806;
+  border-color: #d48806;
+}
+.buttonColorCyan {
+  background-color: #13C2C2;
+  border-color: #13C2C2;
+}
+.buttonColorCyan:hover,
+.buttonColorCyan:focus {
+  background-color: #36cfc9;
+  border-color: #36cfc9;
+}
+.buttonColorCyan:active,
+.buttonColorCyan.active {
+  background-color: #08979c;
+  border-color: #08979c;
+}
+.buttonColorGreen {
+  background-color: #52C41A;
+  border-color: #52C41A;
+}
+.buttonColorGreen:hover,
+.buttonColorGreen:focus {
+  background-color: #73d13d;
+  border-color: #73d13d;
+}
+.buttonColorGreen:active,
+.buttonColorGreen.active {
+  background-color: #389e0d;
+  border-color: #389e0d;
+}
+.button-color-daybreak {
+  background-color: #1890FF;
+  border-color: #1890FF;
+}
+.button-color-daybreak:hover,
+.button-color-daybreak:focus {
+  background-color: #096dd9;
+  border-color: #096dd9;
+}
+.button-color-daybreak:active,
+.button-color-daybreak.active {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+.buttonColorGeekblue {
+  background-color: #2F54EB;
+  border-color: #2F54EB;
+}
+.buttonColorGeekblue:hover,
+.buttonColorGeekblue:focus {
+  background-color: #1d39c4;
+  border-color: #1d39c4;
+}
+.buttonColorGeekblue:active,
+.buttonColorGeekblue.active {
+  background-color: #597ef7;
+  border-color: #597ef7;
+}
+.button-color-purple {
+  background-color: #722ED1;
+  border-color: #722ED1;
+}
+.button-color-purple:hover,
+.button-color-purple:focus {
+  background-color: #9254de;
+  border-color: #9254de;
+}
+.button-color-purple:active,
+.button-color-purple.active {
+  background-color: #531dab;
+  border-color: #531dab;
+}

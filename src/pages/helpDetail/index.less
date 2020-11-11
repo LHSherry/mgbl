@@ -1,0 +1,33 @@
+.container {
+	background-color: #fff;
+	padding: 12px;
+
+	.header {
+		margin-top: 24px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		.title {
+			height: 50px;
+			line-height: 50px;
+			display: flex;
+			color: #0066FF;
+			font-size: 16px;
+			align-items: center;
+
+			&::before {
+				content: '';
+				display: inline-block;
+				width: 6px;
+				height: 30px;
+				background: #0066FF;
+				margin-right: 10px;
+			}
+		}
+	}
+}

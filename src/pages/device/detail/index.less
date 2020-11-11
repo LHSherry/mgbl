@@ -1,0 +1,27 @@
+.container {
+	background-color: #fff;
+	padding: 12px;
+
+	.tabList {
+		width: 100%;
+		display: flex;
+		border-bottom: 4px solid rgba(0, 153, 255, 1);
+		margin-bottom: 12px;
+
+		div {
+			width: 140px;
+			height: 40px;
+			line-height: 40px;
+			border: 1px solid rgba(204, 204, 204, 1);
+			border-bottom: 0;
+			text-align: center;
+			cursor: pointer;
+
+			&.active {
+				border: 0;
+				color:  #fff;
+				background-color: rgba(0, 153, 255, 1);;
+			}
+		}
+	}
+}

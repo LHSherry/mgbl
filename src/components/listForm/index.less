@@ -1,0 +1,66 @@
+.table {
+	border: 1px solid #888;
+
+	.tableRow {
+		display: flex;
+		border-bottom: 1px solid #888;
+
+		&:last-child {
+			border-bottom: 0;
+		}
+
+		.content {
+			flex: 1;
+			min-height: 60px;
+			color: #333333;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			word-break: break-all;
+			border-right: 1px solid #888;
+
+			&:last-child {
+				border-right: 0;
+			}
+
+			&:nth-child(2n+1) {
+				background: #c1d5fd;
+			}
+
+			:global(.ant-form-item) {
+				width: 100% !important;
+				margin-bottom: 0 !important;
+			}
+
+			:global(.ant-select-selector) {
+				border: 0 !important;
+			}
+
+			:global(.ant-picker) {
+				border: 0 !important;
+			}
+
+			input {
+				width: 100%;
+				height: 60px;
+				border: 0 !important;
+			}
+		}
+	}
+
+
+}
+
+.btnList {
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+
+	button {
+		margin-right: 12px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

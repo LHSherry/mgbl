@@ -1,0 +1,41 @@
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.app {
+  width: 100vw;
+  height: 100vh;
+  min-width: 1280px;
+  overflow: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app .header {
+  width: 100%;
+  height: 50px;
+  background-color: #575757;
+}
+.app .main {
+  width: 100%;
+  height: calc(100% - 50px);
+  display: flex;
+}
+.app .main .left {
+  height: 100%;
+  background-color: #2C303A;
+}
+.app .main .left .menu {
+  width: 240px;
+  height: 100%;
+}
+.app .main .screen {
+  background: #f2f2f2;
+  flex: 1;
+  height: 100%;
+  padding: 5px;
+  overflow: auto;
+}
